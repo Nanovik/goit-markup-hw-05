@@ -227,13 +227,13 @@ img {
     transition-property: background-color, color, box-shadow;
     /* transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
 }
 
 .hero-bottom-text:hover,
 .hero-bottom-text:focus {
-    background: #404BBF;
+    background-color: #404BBF;
     color: #FFFFFF;
 }
 
@@ -414,7 +414,7 @@ img {
     transition-property: background-color, color, box-shadow;
     /* transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
 }
 
@@ -603,7 +603,7 @@ img {
     transition-property: background-color, color, box-shadow;
     /* transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
 }
 
@@ -701,7 +701,7 @@ img {
     transition-property: background-color, color, box-shadow;
     /* transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
 }
 
@@ -728,7 +728,7 @@ img {
     transition-property: background-color, color, box-shadow, opacity, visibility, pointer-events;
     /* transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
 }
 
@@ -749,7 +749,7 @@ img {
     transition-property: background-color, color, box-shadow, transform, opacity, visibility;
     /* transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
 }
 
@@ -760,9 +760,9 @@ img {
 .modal-close {
     width: 24px;
     height: 24px;
-    /* top: 24px;
-    right: 24px; */
-    /* position: absolute; */
+    top: 24px;
+    right: 24px;
+    position: absolute;
     padding: 0;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
