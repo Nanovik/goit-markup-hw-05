@@ -25,9 +25,9 @@
                     Web<span class="header-logo-last">Studio</span>
                 </a>
                 <ul class="list header-list">
-                    <li class="header-list-item"><a href="./index.html" class="header-list-item link">Studio</a></li>
-                    <li class="header-list-item"><a href="./portfolio.html" class="header-list-item link">Portfolio</a></li>
-                    <li class="header-list-item"><a href="" class="header-list-item link">Contacts</a></li>
+                    <li><a href="./index.html" class="link header-list-item current">Studio</a></li>
+                    <li><a href="./portfolio.html" class="link header-list-item current">Portfolio</a></li>
+                    <li><a href="" class="header-list-item link ">Contacts</a></li>
                 </ul>
             </nav>
             <address class="header-address">
@@ -38,12 +38,11 @@
             </address>
         </div>
     </header>
-
     <main>
         <section class="hero hero-wrap">
             <div class="container hero-container">
                 <h1 class="hero-title">Effective Solutions for Your Business</h1>
-                <button type="button" class="hero-bottom-text">Order Service</button>
+                <button type="button" class="hero-bottom-text" data-modal-open>Order Service</button>
             </div>
         </section>
 
@@ -379,6 +378,17 @@
     
         </div>
     </footer>
-    
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-close" data-modal-close>
+                <svg class="modal-close-icon" width="8" height="8">
+                    <use href="./images/icons.svg#close-icon"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
 </body>
 </html>
